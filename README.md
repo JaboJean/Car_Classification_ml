@@ -93,7 +93,7 @@ http://localhost:8089
 
 📘 Jupyter Notebook Contents
 
-Your notebook includes:
+My notebook includes:
 
 📌 1. Data Preprocessing
 
