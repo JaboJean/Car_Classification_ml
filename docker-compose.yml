@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  api:
+    build: .
+    volumes:
+      - ./:/app
+      - ./models:/app/models
+      - ./uploads:/app/uploads
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
